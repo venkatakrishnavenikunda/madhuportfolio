@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div id="header">  
+        <div class="container">
+            <nav>
+                <img src="./images/photo.jpg" style="height:300px;width:300px; border-radius:5px" class="logo"> 
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">   
+                <h4>FULLSTACK DEVELOPER</h4><br>
+                <h1>Hi, I am <span>Yarragunta Madhu Sudhan Reddy</span><br>from Andhra Pradesh</h1>
+            </div>
+        </div>
+     </div>
+<!----------------- About ---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/photo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a motivated and ambitious B.Tech graduate with a passion for technology and innovation. With a strong foundation in programming and development, I enjoy solving challenges and building creative solutions. My expertise includes Java, web development, and SQL, and I am eager to apply my knowledge to real-world projects. As a fresher, I am excited to contribute to impactful work, collaborate with dynamic teams, and grow as a professional in the tech industry.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>FRONT END</span><br>Html<br>Css<br>JavaScript</li>
+                        <li><span>BACKEND</span><br>Core java</li>
+                        <li><span>DATABASE</span><br>MySql</li>
+                       
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Projects">
+                    <ul>
+                        <li><span>Front End</span><br>Digital Clock Web App</li>
+                        <li><span>Academic Project</span><br>Multihop D2D Communication To Minimize And Balance SAR in 5G</li>
+                        <li><span>Mini Project</span><br>Object Detective System using Arduino Uno</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2021-2025</span><br>Sri Krishnadevaraya University College of Engineering and technology<br>(lectrical and Electronics Engineering) <br>CGPA: 8.0 / 10</li>
+                        <li><span>2019-2021</span><br>Narayana Junior College<br>(MPC) <br>Percentage: 85%</li>
+                        <li><span>2019</span><br>Navadharath English Medium High School <br>GPA: 9.3 / 10</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- ----------------Projects------------------ -->
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div class="learn-more">
+                <i class="fa-solid fa-code"></i>
+                <h2>Digital Clock Web App</h2>
+                <p>TI developed a responsive Digital Clock Web Application using HTML, CSS, and JavaScript. This project displays the current time in hours, minutes, and seconds, updating in real-time. Each unit of time is color-coded to enhance visual appeal and readability. The app is lightweight, user-friendly, and works smoothly across different screen sizes. This project helped me strengthen my understanding of DOM manipulation, real-time updates using JavaScript, and responsive web design principles.</p>
+                <div class="learn">
+                    <button class="btn"><a href="#">Learn more</a></button>
+                </div>
+            </div>
+            <div class="learn-more">
+                <i class="fa-solid fa-code"></i>
+                <h2>Calculator & Voting Checker</h2>
+                <p>This project is a web-based application developed using Django that features two simple yet functional tools. The first is a calculator page that allows users to perform basic arithmetic operations directly on the website. The second is a voting eligibility checker, where users can input their age to determine if they are eligible to vote. The project focuses on providing a clean and user-friendly interface while showcasing core web development and backend implementation skills.</p>
+                <div class="learn">
+                    <button class="btn"><a href="#">Learn more</a></button>
+                </div>
+            </div>
+            <div class="learn-more">
+                <i class="fa-solid fa-code"></i>
+                <h2>Car Details Showcase System</h2>
+                <p>This project is a web-based application developed using Django to manage and display car details. Users can view information about various cars, including specifications, models, and other relevant details, through a clean and intuitive interface. The system emphasizes efficient data organization and user-friendly navigation, demonstrating the integration of backend functionality with a visually appealing front end.</p>
+                <div class="learn">
+                    <button class="btn"><a href="#">Learn more</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- --------------portfolio---------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My WORK</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/java backend.png">
+                <div class="layer">
+                    <h2>Java</h2>
+                    <p>"Skilled in Python programming, I develop efficient solutions for web development, data analysis, and automation. Experienced in crafting APIs, data pipelines, and scalable tools with clean coding practices."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/sql.png">
+                <div class="layer">
+                    <h2>MySql</h2>
+                    <p>"Proficient in MySQL database design and query optimization, I create efficient schemas and manage large datasets. Experienced in ensuring data integrity and seamless integration with applications."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/front end.jpg">
+                <div class="layer">
+                    <h2>Front End</h2>
+                    <p>"Experienced in front-end development, I specialize in building responsive, user-friendly interfaces using HTML, CSS, and JavaScript. Skilled in frameworks like React and ensuring seamless user experiences with modern design practices."</p>
+                    <a href="#"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- -------------------contact------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Conatct Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> madhureddy3152@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9550351283</p>
+                <div class="social-icons">
+                    <a href="http://www.linkedin.com/in/yarragunta-madhu-sudhan-reddy"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_reddy_madhu_26?igsh=MW01NGxlaDEyenJiZQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/16sTzYPeGY/"><i class="fa-brands fa-facebook"></i></a>
+                    
+                </div>
+                <a href="images/PD.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ⓒ Made by <i class="fa-solid fa-heart"></i> Madhu Reddy</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzs43nO39-LzAz8lIEoVygeMX1T0dIhlTwSQBTuVUJZBzV_zV7oA0Cjphvxg6OcIeuCgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
